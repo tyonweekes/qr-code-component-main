@@ -21,7 +21,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Live Site URL: [Coming Soon](https://your-live-site-url.com)
+- Live Site URL: [QR Code Component Solution](https://dulcet-bienenstitch-481801.netlify.app/)
 
 ### Built with
 
