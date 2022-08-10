@@ -1,0 +1,65 @@
+/* Variables */
+:root {
+    --white: hsl(0, 0%, 100%);
+    --blue-purple: hsl(228, 45%, 44%);
+    --light-grey: hsl(212, 45%, 89%);
+    --greyish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+/* General */
+body {
+    background-color: var(--light-grey);
+}
+
+body, html {
+    height: 100%;
+    display: grid;
+}
+
+.container {
+    margin: auto;
+}
+
+/* QR Code */
+.component-background {
+    text-align: center;
+    background-color: var(--white);
+    padding: 15px;
+    width: 250px;
+    border-radius: 25px;
+}
+
+img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    color: var(--dark-blue);
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    color: var(--greyish-blue);
+}
+
+.text {
+    padding: 0 5px;
+}
+
+/* Attribution */
+.attribution {
+    font-family: 'Outfit', sans-serif;
+    font-size: 11px;
+    text-align: center;
+    padding-top: 80px;
+    margin: auto;
+}
+
+.attribution a {
+    color: var(--blue-purple);
+}
