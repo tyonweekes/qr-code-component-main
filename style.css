@@ -27,7 +27,7 @@ body, html {
     background-color: var(--white);
     padding: 15px;
     width: 250px;
-    border-radius: 25px;
+    border-radius: 10px;
 }
 
 img {
@@ -44,6 +44,7 @@ h1 {
 p {
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
+    font-weight: 300;
     color: var(--greyish-blue);
 }
 
